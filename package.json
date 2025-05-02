@@ -1,10 +1,10 @@
 {
-  "name": "react-native-barcode-expo",
-  "version": "2.0.0",
-  "description": "",
+  "name": "react-native-barcode-aspen",
+  "version": "0.0.6",
+  "description": "react-native-barcode-expo with updates for aspen",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pthongtaem/react-native-barcode-builder"
+    "url": "https://github.com/lathomas64/react-native-barcode-builder"
   },
   "license": "Apache-2.0",
   "source": "src/index.tsx",
@@ -17,10 +17,10 @@
   },
   "keywords": [
     "react-native",
-    "expo",
+    "aspen",
     "barcode"
   ],
-  "author": "Pol Thongtaem <pthongtaem@hotmail.com>",
+  "author": "Imani Thomas <imani.thomas@bywatersolutions.com>",
   "type": "module",
   "dependencies": {
     "jsbarcode": "^3.11.5",
@@ -28,13 +28,13 @@
   },
   "peerDependencies": {
     "prop-types": "^15.8.1",
-    "react": "18.0.0",
-    "react-native": "0.69.5"
+    "react": "^18.0.0",
+    "react-native": "0.69.5 || >= 0.70.0"
   },
   "devDependencies": {
     "@types/react": "~18.0.27",
     "babel-eslint": "^10.0.3",
-    "eslint": "^6.8.0",
+    "eslint": ">= 6.8.0",
     "eslint-plugin-react": "^7.17.0",
     "microbundle": "^0.15.1",
     "react": "18.2.0",

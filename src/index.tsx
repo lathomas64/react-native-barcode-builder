@@ -157,7 +157,7 @@ const Barcode = ({
             style={{
               color: textColor,
               width: barCodeWidth,
-			  fontSize: textSize,
+			  fontSize: textSize, 
               textAlign: 'center',
             }}
           >

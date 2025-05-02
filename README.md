@@ -1,5 +1,5 @@
 
-# react-native-barcode-builder-expo
+# react-native-barcode-builder-aspen
 
 React Native component to generate barcodes. Uses [JsBarcode](https://github.com/lindell/JsBarcode) for encoding of data.
 
@@ -7,9 +7,9 @@ React Native component to generate barcodes. Uses [JsBarcode](https://github.com
 
 #### Step 1
 
-Install `react-native-barcode-expo`:
+Install `react-native-barcode-aspen`:
 
-    yarn add react-native-barcode-expo
+    yarn add react-native-barcode-aspen
 
 
 #### Step 2
@@ -17,7 +17,7 @@ Install `react-native-barcode-expo`:
 Start using the component
 
 ```javascript
-import Barcode from 'react-native-barcode-expo';
+import Barcode from 'react-native-barcode-aspen';
 
 <Barcode value="Hello World" format="CODE128" />
 ```
@@ -56,6 +56,10 @@ You can find more info about the supported barcodes in the [JsBarcode README](ht
   <tr>
     <td><code>textColor</code></td>
     <td>Color of the text (default: #000000)</td>
+  </tr>
+  <tr>
+	<td><code>textSize</code></td>
+	<td>Size of the text displayed with the barcode (default: 20) </td>
   </tr>
   <tr>
     <td><code>lineColor</code></td>
